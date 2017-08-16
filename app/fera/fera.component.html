@@ -1,0 +1,17 @@
+ <div >
+  <div *ngFor="let image of images">
+    <img [defaultImage]="image.defaultImage" [lazyLoad]="image.image" [offset]="image.offset">
+  </div>
+</div> 
+<div class="center">
+  <p>
+    fera works!
+  </p>
+
+  <div class="content">
+    <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/angular" data-tweet-limit="7">
+      Tweets by angular
+    </a>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</div>
